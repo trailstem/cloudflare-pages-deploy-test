@@ -18,5 +18,5 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: cloudflare-pages-deploy-test # e.g. 'my-project'
-          directory: .vercel/output/static
+          directory: out
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
